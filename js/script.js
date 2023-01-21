@@ -1,7 +1,7 @@
 
-  const { createApp } = Vue
+const { createApp } = Vue
 
-  createApp({
+createApp({
     data() {
       return {
         message: 'Hello Vue!',
@@ -9,4 +9,4 @@
         image: 'https://i.picsum.photos/id/565/300/300.jpg?hmac=0aeSSgdxvnJYQ22Mm2VbUdUVvz8FDG-CH3Xgxd9eoDs'
       }
     }
-  }).mount('#app')
+}).mount('#app')
